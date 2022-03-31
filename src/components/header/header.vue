@@ -17,7 +17,7 @@
           <li class="menu-item">FAQ</li>
           <li class="menu-item menu-icon">
           
-            <el-dropdown trigger="click" :size="small">
+            <el-dropdown trigger="click">
               <img class="p-img-responsive" src="/lib/images/menu_icon.png" alt="">
               <el-dropdown-menu slot="dropdown">
                 <el-dropdown-item>
@@ -26,7 +26,7 @@
                       <img  src="/lib/images/language.png" alt="">
                       <i>language</i>
                     </div>
-                    <el-select placeholder="English" :size="medium">
+                    <el-select placeholder="English">
                       <el-option>English</el-option>
                       <el-option>Chinese</el-option>
                     </el-select>
