@@ -10,9 +10,11 @@
   <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>/lib/css/element/element.min.css">
   <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>/lib/css/swiper.min.css">
   <link rel="stylesheet" type="text/css" href="<%= BASE_URL %>/lib/css/Font-Awesome/css/font-awesome.min.css">
-  <script src="<%= BASE_URL %>/lib/js/vue.min.js"></script>
   <script src="<%= BASE_URL %>/lib/js/swiper.min.js"></script>
-  <script src="<%= BASE_URL %>/lib/js/element.min.js"></script>
+  <% if(process.env.NODE_ENV === 'production') {%>
+    <script src="/lib/js/vue.min.js"></script>
+    <script src="/lib/js/element.min.js"></script> 
+  <% }%>
 </head>
 
 <body>
@@ -21,6 +23,7 @@
   </noscript>
   <div id="app"></div>
   <!-- built files will be auto injected -->
+
 </body>
 
 </html>
