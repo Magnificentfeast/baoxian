@@ -1,7 +1,7 @@
 <template>
   <div class="header-container" :style="headerStyle">
     <div class="container">
-      <div class="header-logo">
+      <div class="header-logo hover-hand">
         <div class="logo-img">
           <img class="p-img-responsive" src="/lib/images/logo.png" alt="">
         </div>
@@ -16,13 +16,30 @@
           <li class="menu-item">How it works</li>
           <li class="menu-item">FAQ</li>
           <li class="menu-item menu-icon">
-            <img class="p-img-responsive" src="/lib/images/menu_icon.png" alt="">
+          
+            <el-dropdown trigger="click" :size="small">
+              <img class="p-img-responsive" src="/lib/images/menu_icon.png" alt="">
+              <el-dropdown-menu slot="dropdown">
+                <el-dropdown-item>
+                  <div class="language-box">
+                    <div class="lable">
+                      <img  src="/lib/images/language.png" alt="">
+                      <i>language</i>
+                    </div>
+                    <el-select placeholder="English" :size="medium">
+                      <el-option>English</el-option>
+                      <el-option>Chinese</el-option>
+                    </el-select>
+                  </div>
+                </el-dropdown-item>
+              </el-dropdown-menu>
+            </el-dropdown>
           </li>
         </ul>
       </div>
       <div class="header-menu-sm hidden-md-and-up">
-        <div class="menu-sm-icon" @mouseenter="isHover=true" @mouseleave="isHover=false">
-           <img class="p-img-responsive" src="/lib/images/menu_icon.png" alt="">
+        <div class="menu-sm-icon">
+           <img class="p-img-responsive" @mouseenter="isHover=true" @mouseleave="isHover=false" src="/lib/images/menu_icon.png" alt="">
         </div>
         <ul class="menu-sm-wrap">
           <li class="header-search menu-sm-item">
@@ -70,3 +87,31 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.language-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFF;
+  width: 200px;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: #666;
+}
+.lable{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lable img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.el-input__inner{
+  border: none;
+}
+</style>

@@ -2,7 +2,7 @@
   <div class="home-news container">
     <div class="home-common-title">PicoGo news & blog</div>
     <el-row class="news-wrap" :gutter="10">
-      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item">
+      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item hover-hand">
         <div class="news-item-bg">
           <img src="/lib/images/news_bg_1.png" alt="">
         </div>
@@ -12,7 +12,7 @@
           <div class="news-btn">Start ></div>
         </div>
       </el-col>
-      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item">
+      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item hover-hand">
         <div class="news-item-bg">
           <img src="/lib/images/news_bg_2.png" alt="">
         </div>
@@ -21,7 +21,7 @@
           <div class="news-btn">Start ></div>
         </div>
       </el-col>
-      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item">
+      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item hover-hand">
         <div class="news-item-bg">
           <img src="/lib/images/news_bg_3.png" alt="">
         </div>
@@ -31,7 +31,7 @@
           <div class="news-btn">Start ></div>
         </div>
       </el-col>
-      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item">
+      <el-col :span="12" :xs="12" :md="6" :lg="6" class="news-item hover-hand">
         <div class="news-item-bg">
           <img src="/lib/images/news_bg_4.png" alt="">
         </div>

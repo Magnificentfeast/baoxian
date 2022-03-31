@@ -41,38 +41,38 @@
       <div class="partners-wrap">
         <div class="partners-swiper swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="slide-content">
+            <div class="swiper-slide ">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_1.png">
                 <p class="slide-text">Brief Introduction</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-content">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_2.png">
                 <p class="slide-text">revers</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-content">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_3.png">
                 <p class="slide-text">revers</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-content">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_4.png">
                 <p class="slide-text">revers</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-content">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_5.png">
                 <p class="slide-text">revers</p>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-content">
+              <div class="slide-content hover-hand">
                 <img class="slide-img" src="/lib/images/partners_6.png">
                 <p class="slide-text">revers</p>
               </div>
@@ -91,9 +91,10 @@
         <div class="drops-btn-group">
           <span class="drops-btn">Go to all <i class="el-icon-caret-right"></i></span>
         </div>
-        <el-row :gutter="10" class="drops-content">
+        <!-- <el-row :gutter="10" class="drops-content"> -->
+        <el-row :gutter="10">
           <el-col :span="24" :sm="12" :md="6">
-            <div class="drops-item">
+            <div class="drops-item hover-hand">
               <h3 class="drops-item-title">Ends in 6 days</h3>
               <div class="drops-item-img">
                 <img class="p-img-responsive" src="/lib/images/drops_1.png" alt="">
@@ -122,7 +123,7 @@
             </div>
           </el-col>
           <el-col :span="24" :sm="12" :md="6">
-            <div class="drops-item">
+            <div class="drops-item hover-hand">
               <h3 class="drops-item-title">Ends in 6 days</h3>
               <div class="drops-item-img">
                 <img class="p-img-responsive" src="/lib/images/drops_2.png" alt="">
@@ -151,7 +152,7 @@
             </div>
           </el-col>
           <el-col :span="24" :sm="12" :md="6">
-            <div class="drops-item">
+            <div class="drops-item hover-hand">
               <h3 class="drops-item-title">Ends in 6 days</h3>
               <div class="drops-item-img">
                 <img class="p-img-responsive" src="/lib/images/drops_3.png" alt="">
@@ -180,7 +181,7 @@
             </div>
           </el-col>
           <el-col :span="24" :sm="12" :md="6">
-            <div class="drops-item">
+            <div class="drops-item hover-hand">
               <h3 class="drops-item-title">Ends in 6 days</h3>
               <div class="drops-item-img">
                 <img class="p-img-responsive" src="/lib/images/drops_1.png" alt="">

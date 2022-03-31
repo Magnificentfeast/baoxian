@@ -1,10 +1,14 @@
 @import url('./reset.scss');
 
 #app {
-  font-family: Adobe Heiti Std;
+  // font-family: Adobe Heiti Std;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.hover-hand{
+  cursor: pointer;
 }
 
 .container {
@@ -70,7 +74,8 @@
         .el-input__icon {
           line-height: 30px;
           color: #16D6FA;
-          font-weight: bold;
+          // font-weight: bold;
+          font-weight: normal;
         }
       }
     }
@@ -104,6 +109,7 @@
           &.menu-icon {
             width: 20px;
           }
+
         }
       }
     }
@@ -155,9 +161,11 @@
 }
 
 .home-container {
+  font-family: Arial;
   .home-common-title {
     font-size: 32px;
-    font-weight: bold;
+    // font-weight: bold;
+    font-weight: normal;
     color: #000;
     text-align: center;
     margin-bottom: 30px;
@@ -177,8 +185,9 @@
       .task-title {
         text-align: center;
         font-size: 28px;
-        font-family: Microsoft YaHei;
-        font-weight: bold;
+        // font-family: Microsoft YaHei;
+        // font-weight: bold;
+        font-weight: normal;
         color: #21BAF9;
         padding: 30px 0;
       }
@@ -239,7 +248,7 @@
 
         .task-content-text {
           font-size: 14px;
-          font-family: PingFangSC;
+          // font-family: PingFangSC;
           font-weight: 400;
           color: #666666;
           line-height: 26px;
@@ -268,9 +277,11 @@
               border: 1px solid rgba(255, 255, 255, 0);
 
               &:hover {
-                background: rgba(255, 255, 255, 0);
-                border: 1px solid #69dbfa;
-                color: #69dbfa;
+                background: linear-gradient(to bottom, #5fe0f7, #6adaff);
+                // background: rgba(255, 255, 255, 0);
+                // background: #edf4ff;
+                // border: 1px solid #69dbfa;
+                // color: #69dbfa;
               }
             }
 
@@ -280,8 +291,9 @@
 
               &:hover {
                 background: linear-gradient(to bottom, #2bdefe, #33ccff);
-                border: 1px solid rgba(255, 255, 255, 0);
-                color: #fff;
+                background: #edf4ff;
+                border: 1px solid #69dbfa;
+                // color: #fff;
               }
             }
           }
@@ -337,7 +349,8 @@
             .slide-text {
               padding: 10px 0;
               font-size: 14px;
-              font-weight: bold;
+              // font-weight: bold;
+              font-weight: normal;
               color: #006860;
               text-align: center;
             }
@@ -380,8 +393,9 @@
           padding: 5px 8px;
           border-radius: 3px;
           font-size: 16px;
-          font-family: FangSong;
-          font-weight: bold;
+          // font-family: FangSong;
+          // font-weight: bold;
+          font-weight: normal;
           color: #635DFF;
           cursor: pointer;
         }
@@ -396,8 +410,9 @@
 
         .drops-item-title {
           font-size: 18px;
-          font-family: FangSong;
-          font-weight: bold;
+          // font-family: FangSong;
+          // font-weight: bold;
+          font-weight: normal;
           color: #999999;
           text-align: center;
           padding: 15px 0;
@@ -406,8 +421,9 @@
         .drops-item-img {
           .drops-item-img-text {
             font-size: 18px;
-            font-family: FangSong;
-            font-weight: bold;
+            // font-family: FangSong;
+            // font-weight: bold;
+            font-weight: normal;
             color: #666666;
             padding: 15px 0;
           }
@@ -415,7 +431,7 @@
 
         .drops-item-text {
           font-size: 14px;
-          font-family: FangSong;
+          // font-family: FangSong;
           font-weight: bold;
           color: #999999;
           margin: 30px 0 15px 0;
@@ -437,8 +453,9 @@
 
           .pirce-text {
             font-size: 14px;
-            font-family: FangSong;
-            font-weight: bold;
+            // font-family: FangSong;
+            // font-weight: bold;
+            font-weight: normal;
             color: #FF8400;
             margin-left: 5px;
           }
@@ -447,8 +464,9 @@
         .drops-footer {
           .footer-top {
             font-size: 14px;
-            font-family: FangSong;
-            font-weight: bold;
+            // font-family: FangSong;
+            // font-weight: bold;
+            font-weight: normal;
             color: #CCCCCC;
             padding: 5px 0 5px 3px;
           }
@@ -461,8 +479,9 @@
               flex: 1;
               color: #fff;
               font-size: 18px;
-              font-family: FangSong;
-              font-weight: bold;
+              // font-family: FangSong;
+              // font-weight: bold;
+              font-weight: normal;
               background-color: #6063f6;
               padding: 5px 0 5px 3px;
               border-radius: 3px 0 0 3px;
@@ -483,8 +502,9 @@
                 background-color: #6386f7;
                 height: 50px;
                 font-size: 16px;
-                font-family: FangSong;
-                font-weight: bold;
+                // font-family: FangSong;
+                // font-weight: bold;
+                font-weight: normal;
                 color: #FFFFFF;
                 width: 100%;
                 text-align: center;
@@ -500,8 +520,9 @@
 
               .r-btn {
                 font-size: 16px;
-                font-family: FangSong;
-                font-weight: bold;
+                // font-family: FangSong;
+                // font-weight: bold;
+                font-weight: normal;
                 color: #FFFFFF;
                 background-color: #96adf9;
                 border-radius: 0 0 3px 0;
@@ -534,7 +555,7 @@
       position: relative;
       padding: 50px 30px;
       margin-bottom: 15px;
-
+      border: none;
       .recent-badge {
         position: absolute;
         top: 0;
@@ -542,8 +563,9 @@
         background-color: #ccc;
         border-radius: 0 15px 15px 0;
         font-size: 16px;
-        font-family: NSimSun;
-        font-weight: bold;
+        // font-family: NSimSun;
+        // font-weight: bold;
+        font-weight: normal;
         color: #FFFFFF;
         padding: 3px 5px;
       }
@@ -561,16 +583,18 @@
 
       .recent-title {
         font-size: 18px;
-        font-family: NSimSun;
-        font-weight: bold;
+        // font-family: NSimSun;
+        // font-weight: bold;
+        font-weight: normal;
         color: #000000;
         margin-bottom: 30px;
       }
 
       .recent-sub-title {
         font-size: 16px;
-        font-family: NSimSun;
-        font-weight: bold;
+        // font-family: NSimSun;
+        // font-weight: bold;
+        font-weight: normal;
         color: #999999;
         margin-bottom: 30px;
       }
@@ -578,11 +602,9 @@
       .recent-text-border {
         margin-bottom: 15px;
 
-        p {
           padding: 5px 0;
           border: 2px solid #DEDEDE;
           border-radius: 2px;
-        }
       }
 
       .el-progress {
@@ -590,7 +612,8 @@
 
         .el-progress__text {
           font-size: 22px !important;
-          font-weight: bold;
+          // font-weight: bold;
+          font-weight: normal;
         }
 
         &.primary {
@@ -608,8 +631,9 @@
 
       .progress-text {
         font-size: 14px;
-        font-family: NSimSun;
-        font-weight: bold;
+        // font-family: NSimSun;
+        // font-weight: bold;
+        font-weight: normal;
         color: #333333;
       }
     }
@@ -625,7 +649,8 @@
 
       .works-title {
         font-size: 24px;
-        font-weight: bold;
+        // font-weight: bold;
+        font-weight: normal;
         color: #666666;
         padding: 30px;
       }
@@ -701,7 +726,8 @@
 
           .tool-title {
             font-size: 22px;
-            font-weight: bold;
+            // font-weight: bold;
+            font-weight: normal;
             color: #FFFFFF;
             margin-bottom: 15px;
           }
@@ -737,19 +763,21 @@
       width: 56%;
       margin: 0 auto;
       font-size: 16px;
-      font-family: FangSong;
-      font-weight: bold;
+      // font-family: FangSong;
+      // font-weight: bold;
+      font-weight: normal;
       color: #999999;
       margin-bottom: 50px;
     }
 
     .refer-btn-wrap {
       .refer-btn {
-        font-family: FangSong;
+        // font-family: FangSong;
         background-color: #646bf6;
         color: #fff;
         font-size: 16px;
-        font-weight: bold;
+        // font-weight: bold;
+        font-weight: normal;
         color: #FFFFFF;
         padding: 10px 15px;
         cursor: pointer;
@@ -788,16 +816,18 @@
           top: 48%;
           left: 25px;
           right: 25px;
-
+          line-height: 1.5;
           .news-title {
             font-size: 14px;
-            font-weight: bold;
+            // font-weight: bold;
+            font-weight: normal;
             color: #FFFFFF;
           }
 
           .news-text {
             font-size: 12px;
-            font-weight: bold;
+            // font-weight: bold;
+            font-weight: normal;
             color: #FFFFFF;
             padding: 15px 0;
           }
@@ -805,7 +835,8 @@
           .news-btn {
             cursor: pointer;
             font-size: 16px;
-            font-weight: bold;
+            // font-weight: bold;
+            font-weight: normal;
             color: #FFFFFF;
           }
         }
@@ -829,8 +860,9 @@
 
       .contact-link {
         color: #333;
-        font-family: FangSong;
-        font-weight: bold;
+        // font-family: FangSong;
+        // font-weight: bold;
+        font-weight: normal;
         text-decoration: underline;
         cursor: pointer;
         padding: 30px 0 50px 0;
@@ -859,8 +891,9 @@
 
           .mode-text {
             font-size: 14px;
-            font-family: FangSong;
-            font-weight: bold;
+            // font-family: FangSong;
+            // font-weight: bold;
+            font-weight: normal;
             text-decoration: underline;
             color: #666666;
           }
@@ -886,7 +919,7 @@
         .footer-link-content {
           list-style: none;
           padding: 0;
-
+          line-height: 1.5;
           li {
             cursor: pointer;
             color: #999;
@@ -1135,3 +1168,29 @@
     }
   }
 }
+
+
+
+  .el-row {
+    margin-bottom: 20px;
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
