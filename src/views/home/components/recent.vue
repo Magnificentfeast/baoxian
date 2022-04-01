@@ -11,7 +11,7 @@
               <img src="/lib/images/recent_1.png" alt="">
             </div>
             <p class="recent-title">Pico/ETH </p>
-            <p class="recent-sub-title">Pico<i class="fa fa-exchange"></i>ETH</p>
+            <p class="recent-sub-title">Pico<i class="fa fa-exchange m0-10"></i>ETH</p>
             <el-row :gutter="15">
               <el-col :span="12">
                 <div class="recent-text-border">999.9K Pico</div>
@@ -43,7 +43,7 @@
               <img src="/lib/images/recent_1.png" alt="">
             </div>
             <p class="recent-title">Pico/ETH </p>
-            <p class="recent-sub-title">Pico<i class="fa fa-exchange"></i>ETH</p>
+            <p class="recent-sub-title">Pico<i class="fa fa-exchange m0-10"></i>ETH</p>
             <el-row :gutter="15">
               <el-col :span="12">
                 <div class="recent-text-border">999.9K Pico</div>
@@ -75,7 +75,7 @@
               <img src="/lib/images/recent_1.png" alt="">
             </div>
             <p class="recent-title">Pico/ETH </p>
-            <p class="recent-sub-title">Pico<i class="fa fa-exchange"></i>ETH</p>
+            <p class="recent-sub-title">Pico<i class="fa fa-exchange m0-10"></i>ETH</p>
             <el-row :gutter="15">
               <el-col :span="12">
                 <div class="recent-text-border">999.9K Pico</div>
@@ -115,7 +115,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+.m0-10{
+  margin: 0 10px;
+}
 </style>
 
 
